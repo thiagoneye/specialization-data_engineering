@@ -38,5 +38,5 @@ SELECT TOP 5 nom_empregado, val_salario
 
 
 
-SELECT DISTINCT nom_local, nom_projeto
+SELECT DISTINCT TOP 3 nom_local, nom_projeto
 	FROM projeto;
