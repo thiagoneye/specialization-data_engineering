@@ -1,0 +1,4 @@
+[1] ELMASRI, Ramez e NAVATHE, Shamkant B. Sistemas de Banco de Dados. Pearson Addison Wesley. 6a Edição, 2011.
+
+
+[2] MICROSOFT. Visão geral das ferramentas do SQL. Disponível em https://docs.microsoft.com/pt-br/sql/tools/overview-sql-tools?view=sql-server-ver15.
