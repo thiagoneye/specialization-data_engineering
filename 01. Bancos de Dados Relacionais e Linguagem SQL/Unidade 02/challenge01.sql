@@ -1,5 +1,5 @@
 /*
-Neste desafio você vai utilizar o SQL Management Studio para fazer algumas consultas utilizando possibilidades de filtros e ordenação de dados.
+Neste desafio vocÃª vai utilizar o SQL Management Studio para fazer algumas consultas utilizando possibilidades de filtros e ordenaÃ§Ã£o de dados.
 Acesse o banco de dados bd_filmes e construa consultas SQL conforme solicitado em cada item.
 */
 
@@ -12,7 +12,7 @@ SP_HELP filmes_genero;
 SP_HELP generos;
 
 
--- Consulta 01. Liste os filmes que estão sem link de foto considerando também os registros sem dados.
+-- Consulta 01. Liste os filmes que estÃ£o sem link de foto considerando tambÃ©m os registros sem dados.
 
 SELECT *
 	FROM filmes
@@ -20,7 +20,7 @@ SELECT *
 
 
 
--- Consulta 02. Liste nome e data de lançamento dos filmes que contenham a palavra 'Bela'.
+-- Consulta 02. Liste nome e data de lanÃ§amento dos filmes que contenham a palavra 'Bela'.
 
 SELECT dsc_filme, dat_lancamento
 	FROM filmes
@@ -36,7 +36,7 @@ SELECT DISTINCT dsc_filme
 
 
 
--- Consulta 04. Liste a descrição e a quantidade de votos dos filmes que tiveram mais de 1000 votos, ordenar pela quantidade de votos em ordem decrescente.
+-- Consulta 04. Liste a descriÃ§Ã£o e a quantidade de votos dos filmes que tiveram mais de 1000 votos, ordenar pela quantidade de votos em ordem decrescente.
 
 SELECT dsc_filme, qtd_votos
 	FROM filmes
@@ -45,7 +45,7 @@ SELECT dsc_filme, qtd_votos
 
 
 
--- Consulta 05. Liste os filmes da série '007' com quantidade de votos acima de 3000 ou nota média acima de 65.
+-- Consulta 05. Liste os filmes da sÃ©rie '007' com quantidade de votos acima de 3000 ou nota mÃ©dia acima de 65.
 
 SELECT dsc_filme, qtd_votos, num_nota_media
 	FROM filmes
@@ -54,7 +54,7 @@ SELECT dsc_filme, qtd_votos, num_nota_media
 
 
 
--- Consulta 06. Liste nome e o índice de popularidade dos 5 filmes da série '007' com maior popularidade.
+-- Consulta 06. Liste nome e o ï¿½ndice de popularidade dos 5 filmes da sï¿½rie '007' com maior popularidade.
 
 SELECT TOP 5 dsc_filme, num_popularidade
 	FROM filmes
