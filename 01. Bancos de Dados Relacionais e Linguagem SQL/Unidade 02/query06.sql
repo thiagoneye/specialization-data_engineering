@@ -1,15 +1,13 @@
 
-USE bd_empresa;
-
-SELECT *
-	FROM departamento;
-
-SELECT *
-	FROM departamento_local;
+SELECT nom_empregado AS Nome, nom_cidade + '-' + sig_uf AS nom_cidade
+    FROM empregado;
 
 
 
-SELECT *
-	FROM departamento d
-		JOIN departamento_local dl
-			ON d.cod_depto = dl.cod_depto;
+
+
+
+
+
+
+
