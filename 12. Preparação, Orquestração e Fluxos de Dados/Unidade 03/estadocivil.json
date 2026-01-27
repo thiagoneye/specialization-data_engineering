@@ -1,0 +1,26 @@
+[
+	{
+		"ID_EC": 1,
+		"DSC_EC": "Solteiro(a)"
+	},
+	{
+		"ID_EC": 2,
+		"DSC_EC": "Casado(a)"
+	},
+	{
+		"ID_EC": 3,
+		"DSC_EC": "Divorciado(a)"		
+	},
+	{
+		"ID_EC": 4,
+		"DSC_EC": "Viúvo(a)"
+	},
+	{
+		"ID_EC": 5,
+		"DSC_EC": "União Estável"
+	},
+	{	
+		"ID_EC": 6,
+		"DSC_EC": "Separado(a)"
+	}
+]
