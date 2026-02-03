@@ -21,5 +21,3 @@ Todos os arquivos foram baseados nos cursos do site citado.
 13. Ingestão e Catalogação de Dados
 14. Preparação, Orquestração e Fluxos de Dados
 15. Computação em Nuvem
-16. Humanidades
-17. Trabalho de Conclusão de Curso
